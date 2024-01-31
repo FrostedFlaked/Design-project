@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.header-title {
+    position: fixed;
+    margin-left: 13%;
+    font-family: 'Eczar', serif;
+    text-align: center;
+    margin-top: 2%;
+    color: antiquewhite;
+}
+body {
+    background-color: color-mix(in srgb, lightgreen 60%, white 40%);
+}
+.logo {
+    height: 168px;
+    position: fixed;
+    bottom: 75%;
+    right: 87%;
+}
+table {
+    margin: 25px auto;
+    position: fixed;
+    right: 4%;
+    bottom: 80%;
+    color: antiquewhite;
+    border-spacing: 15px;
+    font-size: large;
+}
+td {
+    font-family: 'Eczar', serif;
+}
+header {
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    z-index: 2;
+    display: inline-block;
+    background-color: green;
+}
+.table-links {
+    color: inherit;
+    text-decoration: none;
+}
+a {
+    text-decoration: underline;
+    color: rgb(158, 13, 42);
+}
+a:hover {
+   color: rgb(168, 78, 78);
+   font-style: italic;
+}
+.text-box-1 {
+    font-family: Eczar, serif;
+    margin-left: 38%;
+    margin-top: 200px;
+    position: absolute;
+    text-align: center;
+    border: 2px solid darkgreen;
+    line-height: 23px;
+}
+.recipe-intro {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 31%;
+    margin-top: 31.5%;
+    font-size: medium;
+    color: darkgreen;
+}
+.ashwagandha {
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 73%;
+    height: 200px;
+    margin-top: 12%;
+    width: 219px;
+}
+.turmeric {
+    border-radius: 20px;
+    height: 200px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 13%;
+}
+.turmeric-benif {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 72.5%;
+    top: 63.5%;
+    text-align: center;
+}
+.ash-benif {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 63.5%;
+    right: 153px;
+}
+.ginger-chicken {
+    border: 2px solid darkgreen;
+    height: 130px;
+    position: absolute;
+    right: 73%;
+    top: 82%;
+}
+.ginger-chicken-link {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 107%;
+    right: 74.4%;
+}
+.break-cook {
+    position: absolute;
+    height: 130px;
+    width: 142px;
+    top: 82%;
+    right: 55%;
+    border: 2px solid darkgreen;
+}
+.oat-cook-link {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: small;
+    top: 107%;
+    right: 57%;
+}
+.golden-tonic {
+    position: absolute;
+    height: 130px;
+    top: 82%;
+    border: 2px solid darkgreen;
+    right: 31%;
+}
+.gld-ton-link {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 107%;
+    right: 32.5%;
+}
+.chick-tikka {
+    position: absolute;
+    height: 130px;
+    border: 2px solid darkgreen;
+    top: 82%;
+    right: 13.5%;
+}
+.chick-tikka-link {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: small;
+    top: 107%;
+    right: 15.5%; 
+}

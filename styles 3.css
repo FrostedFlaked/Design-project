@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.header-title {
+    position: fixed;
+    margin-left: 13%;
+    font-family: 'Eczar', serif;
+    text-align: center;
+    margin-top: 2%;
+    color: antiquewhite;
+}
+body {
+    background-color: color-mix(in srgb, lightgreen 60%, white 40%);
+}
+.logo {
+    height: 168px;
+    position: fixed;
+    bottom: 75%;
+    right: 87%;
+}
+table {
+    margin: 25px auto;
+    position: fixed;
+    right: 4%;
+    bottom: 80%;
+    color: antiquewhite;
+    border-spacing: 15px;
+    font-size: large;
+}
+td {
+    font-family: 'Eczar', serif;
+}
+header {
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    z-index: 2;
+    display: inline-block;
+    background-color: green;
+}
+.table-links {
+    color: inherit;
+    text-decoration: none;
+}
+.flavor-intro-p {
+    position: absolute;
+    font-family: 'Eczar', serif;
+    bottom: 26%;
+    color: green;
+    left: 3%;
+}
+.PFK {
+    position: absolute;
+    height: 45%;
+    border-radius: 30px;
+    border: 2px solid darkgreen;
+    top: 37%;
+    left: 65%;
+    width: 30%;
+}
+.modern {
+    position: absolute;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 28%;
+    color: black;
+    left: 2.9%;
+    text-decoration: underline double;
+    font-size: xx-large;
+}
+a {
+    text-decoration: underline;
+    color: rgb(158, 13, 42);
+}
+a:hover {
+   color: rgb(168, 78, 78);
+   font-style: italic;
+}
+.historical {
+    position: absolute;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 90%;
+    color: black;
+    left: 2.9%;
+    text-decoration: underline double;
+    font-size: xx-large;
+}
+.fish {
+    position: absolute;
+    height: 45%;
+    border-radius: 30px;
+    border: 2px solid darkgreen;
+    top: 102%;
+    left: 65%;
+    width: 30%;
+}
+.flavor-intro-p-2 {
+    position: absolute;
+    font-family: 'Eczar', serif;
+    top: 104%;
+    color: green;
+    left: 3%;
+}

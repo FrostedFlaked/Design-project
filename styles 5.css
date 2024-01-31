@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.header-title {
+    position: fixed;
+    margin-left: 13%;
+    font-family: 'Eczar', serif;
+    text-align: center;
+    margin-top: 2%;
+    color: antiquewhite;
+}
+body {
+    background-color: color-mix(in srgb, lightgreen 60%, white 40%);
+}
+.logo {
+    height: 168px;
+    position: fixed;
+    bottom: 75%;
+    right: 87%;
+}
+table {
+    margin: 25px auto;
+    position: fixed;
+    right: 4%;
+    bottom: 80%;
+    color: antiquewhite;
+    border-spacing: 15px;
+    font-size: large;
+}
+td {
+    font-family: 'Eczar', serif;
+}
+header {
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    z-index: 2;
+    display: inline-block;
+    background-color: green;
+}
+.table-links {
+    color: inherit;
+    text-decoration: none;
+}
+a {
+    text-decoration: underline;
+    color: rgb(158, 13, 42);
+}
+a:hover {
+   color: rgb(168, 78, 78);
+   font-style: italic;
+}
+form {
+    position: absolute;
+    top: 200px;
+    right: 48%;
+    font-family: Eczar, serif;  
+}
+textarea {
+    resize: none;
+    left: 110%;
+    top: 1%;
+    position: absolute;
+}
+.rating {
+    position: absolute;
+    top: 40%;
+    left: 132%;
+    white-space: nowrap;
+}
+select {
+    position: absolute;
+    top: 47%;
+    left: 135%;
+}
+.submit {
+    position: absolute;
+    top: 58%;
+    left: 80%;
+    text-decoration: underline;
+    width: 100px;
+    height: 25px;
+}
